@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Website Projects · d2domain12</title>
+<meta name="description" content="Website projects designed by d2domain12">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1d1b18;--card:#2a2723;--fg:#f7efe1;--muted:#c9bda6;--gold:#e8bd62;--line:rgba(232,189,98,.28)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse 70% 40% at 50% 0%,rgba(232,189,98,.14),transparent 70%),var(--bg);color:var(--fg);font-family:'Jost',system-ui,sans-serif;line-height:1.6}
+header{text-align:center;padding:72px 16px 32px}
+.eyebrow{margin:0 0 10px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+h1{margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(40px,7vw,64px);line-height:1.05}
+.lead{max-width:560px;margin:14px auto 0;color:var(--muted)}
+main{max-width:1100px;margin:0 auto;padding:16px 16px 64px;display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-5px);border-color:var(--gold);box-shadow:0 0 40px rgba(232,189,98,.25)}
+.shot{aspect-ratio:16/10;background:#14130f center/cover no-repeat;border-bottom:1px solid var(--line)}
+.body{display:flex;flex-direction:column;gap:8px;flex:1;padding:18px}
+.tag{align-self:flex-start;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--line);border-radius:999px;padding:2px 10px}
+h2{margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:600;line-height:1.15}
+p{margin:0;color:var(--muted);font-size:15px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:10px}
+.btn{display:inline-flex;align-items:center;border-radius:999px;padding:9px 18px;font-size:13px;font-weight:500;letter-spacing:.06em;text-decoration:none}
+.btn-gold{background:linear-gradient(135deg,#f6d98e,#d6a14a);color:#1d1b18}
+.btn-line{border:1px solid var(--line);color:var(--fg)}
+.btn-line:hover{border-color:var(--gold)}
+.featured{grid-column:1/-1}
+@media(min-width:760px){.featured{flex-direction:row}.featured .shot{flex:1.2;aspect-ratio:auto;min-height:280px;border-bottom:0;border-right:1px solid var(--line)}.featured .body{flex:1;padding:28px}}
+footer{text-align:center;padding:0 16px 48px;color:var(--muted);font-size:13px}
+footer a{color:var(--gold);text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+<p class="eyebrow">Portfolio</p>
+<h1>Website Projects</h1>
+<p class="lead">Websites I've designed and built, from restaurant and service sites to a full luxury e-commerce store.</p>
+</header>
+<main>
+<article class="card featured">
+<div class="shot" style="background-image:url('https://cdn.shopify.com/s/files/1/0677/1802/1214/files/0007-1142181757069621237.jpg')"></div>
+<div class="body">
+<span class="tag">Shopify store</span>
+<h2>NuBlend</h2>
+<p>A luxury oil-fragrance shop on Shopify: custom dark-gold theme, per-bottle color glows, styled product photography, size and price pickers, and a gold logo redesign.</p>
+<div class="links"><a class="btn btn-gold" href="https://nublendnotes.myshopify.com" target="_blank" rel="noopener">Visit store</a></div>
+</div>
+</article>
+<article class="card">
+<div class="shot" style="background-image:url('https://screenshot2.lovable.dev/3850c015-52d9-4d56-885f-929a77d534a8/id-preview-ecc8ec17--804b5532-a0f2-4891-915b-65b7d1cf81c0.lovable.app-1782636444288.png')"></div>
+<div class="body">
+<span class="tag">Local business</span>
+<h2>Grab &amp; Go Digital</h2>
+<p>A mobile-friendly landing page for a convenience store, with live open/closed hours, product categories and tap-to-call.</p>
+<div class="links"><a class="btn btn-gold" href="https://id-preview--804b5532-a0f2-4891-915b-65b7d1cf81c0.lovable.app" target="_blank" rel="noopener">View site</a><!--GH:grab--></div>
+</div>
+</article>
+<article class="card">
+<div class="shot" style="background-image:url('https://screenshot2.lovable.dev/86900f96-38a6-4027-9c64-b5ca95b6bd71/id-preview-4a1d00e7--b95be5b7-4cb0-4633-9812-33202482a2a3.lovable.app-1780489173335.png')"></div>
+<div class="body">
+<span class="tag">Restaurant</span>
+<h2>Martha's Restaurant</h2>
+<p>A warm homestyle restaurant site with house favorites, the restaurant's story and hours.</p>
+<div class="links"><a class="btn btn-gold" href="https://id-preview--b95be5b7-4cb0-4633-9812-33202482a2a3.lovable.app" target="_blank" rel="noopener">View site</a><!--GH:martha--></div>
+</div>
+</article>
+<article class="card">
+<div class="shot" style="background-image:url('https://screenshot2.lovable.dev/e632d310-7e5a-4843-b2e8-bec51ccb5c5f/id-preview-3608f3c3--a85fe632-12fa-4361-ad04-5783759bf4d1.lovable.app-1780743927216.png')"></div>
+<div class="body">
+<span class="tag">Restaurant · Bilingual</span>
+<h2>Olympic Family Restaurant</h2>
+<p>A bilingual (English/Spanish) site for a Mexican restaurant in Waco, TX, with the full menu, hours and a map.</p>
+<div class="links"><a class="btn btn-gold" href="https://id-preview--a85fe632-12fa-4361-ad04-5783759bf4d1.lovable.app" target="_blank" rel="noopener">View site</a><!--GH:olympic--></div>
+</div>
+</article>
+<article class="card">
+<div class="shot" style="background-image:url('https://screenshot2.lovable.dev/65819db1-4d2d-4f55-a06e-8eedc0b99ba4/id-preview-5683861c--e98031af-3601-4027-a083-80a5a882afb6.lovable.app-1780747425524.png')"></div>
+<div class="body">
+<span class="tag">Web app</span>
+<h2>Atelier: Design Studio Builder</h2>
+<p>A step-by-step order form for a web design studio, with a live site preview and instant pricing that updates as clients choose features.</p>
+<div class="links"><a class="btn btn-gold" href="https://id-preview--e98031af-3601-4027-a083-80a5a882afb6.lovable.app" target="_blank" rel="noopener">View site</a><!--GH:design--></div>
+</div>
+</article>
+<article class="card">
+<div class="shot" style="background-image:url('https://screenshot2.lovable.dev/e4e61c6d-a168-4668-8965-31faf6a124cb/id-preview-4dc066ea--e880c4e8-8724-4716-94ff-6d4c76191b3a.lovable.app-1780483392026.png')"></div>
+<div class="body">
+<span class="tag">Cleaning service</span>
+<h2>Luce's Cleaning Service</h2>
+<p>A bright, trustworthy site for a Woodway, TX cleaning company, with services, a photo gallery and a quote request form.</p>
+<div class="links"><a class="btn btn-gold" href="https://id-preview--e880c4e8-8724-4716-94ff-6d4c76191b3a.lovable.app" target="_blank" rel="noopener">View site</a><!--GH:sparkle--></div>
+</div>
+</article>
+</main>
+<footer>Created and designed by <a href="mailto:D2domain12@gmail.com">D2domain12@gmail.com</a></footer>
+</body>
+</html>
